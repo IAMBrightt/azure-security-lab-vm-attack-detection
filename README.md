@@ -9,8 +9,8 @@ Steps performed:
 •	Attached the VM to the virtual network
 •	Assigned a public IP address
 Once the VM was deployed, the next step was configuring the network to allow internet traffic to reach the machine.
- 
-2. Configuring the Honeypot
+![image](https://github.com/IAMBrightt/azure-security-lab-vm-attack-detection/blob/768684fd95f8c7143d62db4a974d433fe2b5de99/Resource%20groups.png)
+3. Configuring the Honeypot
 To simulate a vulnerable system, I configured the Network Security Group (NSG) associated with the virtual machine.
 I created a rule that allowed all inbound traffic. This intentionally exposes the system to the internet so that it can attract login attempts from external sources.
 Next, I connected to the virtual machine.
@@ -111,6 +111,7 @@ Conclusion
 This project demonstrates how to build a simple cloud-based security monitoring environment using Microsoft Azure.
 By deploying a honeypot virtual machine and forwarding its logs into Microsoft Sentinel, it is possible to monitor authentication attempts, analyze security events, and visualize attacker activity across the internet.
 This type of setup reflects real-world security operations workflows used by SOC analysts and cloud security teams.
+
 
 
 
