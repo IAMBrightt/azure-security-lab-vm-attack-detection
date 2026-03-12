@@ -1,3 +1,4 @@
+https://github.com/IAMBrightt/azure-security-lab-vm-attack-detection-/blob/6c68490bc555b4dfbca80de0d7bbd51e7b943a27/azure_honeypot_architecture.gif
 1. Creating the Azure Environment
 First, I created a free Azure subscription and logged into the Azure Portal.
 After accessing the portal, I built the basic infrastructure needed for the lab.
@@ -104,6 +105,7 @@ Conclusion
 This project demonstrates how to build a simple cloud-based security monitoring environment using Microsoft Azure.
 By deploying a honeypot virtual machine and forwarding its logs into Microsoft Sentinel, it is possible to monitor authentication attempts, analyze security events, and visualize attacker activity across the internet.
 This type of setup reflects real-world security operations workflows used by SOC analysts and cloud security teams.
+
 
 
 
